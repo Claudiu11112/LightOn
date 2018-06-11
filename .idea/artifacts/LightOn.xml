@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="LightOn">
+    <output-path>$PROJECT_DIR$/out/artifacts/LightOn</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="test.LightOn" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="LightOn.jar">
+        <element id="module-output" name="LightOn" />
+      </element>
+    </root>
+  </artifact>
+</component>
