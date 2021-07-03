@@ -35,8 +35,14 @@ public class LightOn {
         f.getContentPane().setLayout(null);
 
         URL url = getClass().getResource("images.png");
-        ImageIcon i = new ImageIcon(url);
-        f.setIconImage(i.getImage());
+       // assert url != null;
+        ImageIcon i = null;
+        if (url != null) {
+            i = new ImageIcon(url);
+        }
+        if (i != null) {
+            f.setIconImage(i.getImage());
+        }
 
         JLabel lbl1 = new JLabel("Default");
         lbl1.setFont(new Font("Bitstream Charter", Font.PLAIN, 16));
@@ -65,8 +71,6 @@ public class LightOn {
                     url1 = new URL(a);
                     URLConnection conn = url1.openConnection();
                     InputStream in = conn.getInputStream();
-//                BufferedReader br = new BufferedReader(
-//                        new InputStreamReader(conn.getInputStream()));
                     in.close();
                 } catch (IOException e1) {
                     //joie1.printStackTrace();
@@ -90,8 +94,6 @@ public class LightOn {
                     url1 = new URL(a);
                     URLConnection conn = url1.openConnection();
                     InputStream in = conn.getInputStream();
-//                BufferedReader br = new BufferedReader(
-//                        new InputStreamReader(conn.getInputStream()));
                     in.close();
                 } catch (IOException e1) {
                    // e1.printStackTrace();
@@ -120,8 +122,6 @@ public class LightOn {
                     url1 = new URL(a);
                     URLConnection conn = url1.openConnection();
                     InputStream in = conn.getInputStream();
-//                BufferedReader br = new BufferedReader(
-//                        new InputStreamReader(conn.getInputStream()));
                     in.close();
                 } catch (IOException e1) {
                   //  e1.printStackTrace();
@@ -145,8 +145,6 @@ public class LightOn {
                     url12 = new URL(a);
                     URLConnection conn = url12.openConnection();
                     InputStream in = conn.getInputStream();
-//                BufferedReader br = new BufferedReader(
-//                        new InputStreamReader(conn.getInputStream()));
                     in.close();
                 } catch (IOException e1) {
                    // e1.printStackTrace();
