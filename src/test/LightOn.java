@@ -44,9 +44,9 @@ public class LightOn {
             f.setIconImage(i.getImage());
         }
 
-        JLabel lbl1 = new JLabel("Default");
+        JLabel lbl1 = new JLabel("LightON  v1.2");
         lbl1.setFont(new Font("Bitstream Charter", Font.PLAIN, 16));
-        lbl1.setBounds(153, 25, 70, 19);
+        lbl1.setBounds(153, 15, 100, 19);
         f.getContentPane().add(lbl1);
 
         JLabel lbl2 = new JLabel("Light switch");
