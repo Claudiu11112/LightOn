@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="LightOn:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LightOn_jar</output-path>
+    <root id="root">
+      <element id="archive" name="LightOn.jar">
+        <element id="module-output" name="LightOn" />
+      </element>
+    </root>
+  </artifact>
+</component>
